@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Periodic_Table_Full-Stack_App/static/css/main.5972199a.css",
+    "main.js": "/Periodic_Table_Full-Stack_App/static/js/main.fa707d28.js",
+    "static/js/453.b78a47aa.chunk.js": "/Periodic_Table_Full-Stack_App/static/js/453.b78a47aa.chunk.js",
+    "index.html": "/Periodic_Table_Full-Stack_App/index.html",
+    "main.5972199a.css.map": "/Periodic_Table_Full-Stack_App/static/css/main.5972199a.css.map",
+    "main.fa707d28.js.map": "/Periodic_Table_Full-Stack_App/static/js/main.fa707d28.js.map",
+    "453.b78a47aa.chunk.js.map": "/Periodic_Table_Full-Stack_App/static/js/453.b78a47aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5972199a.css",
+    "static/js/main.fa707d28.js"
+  ]
+}
