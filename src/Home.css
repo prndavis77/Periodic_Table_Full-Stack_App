@@ -1,0 +1,113 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa; /* Light background */
+  color: #333;
+}
+
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically (if needed) */
+  flex-direction: column; /* Ensures any child elements stack vertically */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3c415c;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.intro p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.explore {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  width: 200px;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  background-color: #3c91e6; /* Vibrant blue for CTA */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.explore:hover {
+  background-color: #265b9a; /* Darker shade on hover */
+  transform: translateY(-3px); /* Slight hover effect */
+}
+
+.explore:active {
+  transform: translateY(0);
+}
+
+.home {
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.intro {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .explore {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
